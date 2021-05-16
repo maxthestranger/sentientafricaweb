@@ -10,7 +10,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost/sentient'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://pbytdskogtbfnn:56daeb941f04ec560422cef656bd3e62ddd11c39c201e503f349bbe2eb6b9ea8@ec2-54-152-185-191.compute-1.amazonaws.com:5432/d5k7jhm72oaig5'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://pbytdskogtbfnn:56daeb941f04ec560422cef656bd3e62ddd11c39c201e503f349bbe2eb6b9ea8@ec2-54-152-185-191.compute-1.amazonaws.com:5432/d5k7jhm72oaig5'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
