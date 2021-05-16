@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}{% endblock %} - Sentient Africa</title>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="sentient africa" content="sentientafrica.com" />
+    <meta
+      name="description"
+      content="A software development and creative agency for your business needs"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../static/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../static/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../static/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../static/favicon/site.webmanifest" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Rubik:wght@400;500;700&family=Spartan:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/vendor/animate/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/vendor/tiny-slider/tiny-slider.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../static/css/vendor.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css" />
+  </head>
+  <body>
+    <!-- ===== Header START ===== -->
+    <header class="navbar-light navbar-sticky">
+      <!-- Logo Nav START -->
+      <nav class="navbar navbar-expand-lg">
+        <div
+          class="container-fluid align-items-stretch bs-gutter-x bs-gutter-x2"
+        >
+          <!-- Logo START -->
+          <a class="navbar-brand" href="index.html">
+            <!-- Logo SVG Code -->
+            <img
+              src="../static/images/brand/logo.svg"
+              class="navbar-brand-item"
+              alt="logo"
+            />
+          </a>
+          <!-- Logo END -->
+
+          <!-- Responsive navbar toggler -->
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+
+          <!-- Main Menu START -->
+          <div
+            class="collapse navbar-collapse w-auto me-auto"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav navbar-nav-scroll me-auto ms-0 ms-xl-4">
+              <!-- Menu item 1 How it Works -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+
+              <!-- Menu item 2 Our Works -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clients</a>
+              </li>
+
+              <!-- Menu item 3 Our Works -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <!-- Menu item 4 Resources -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+
+              <!-- Menu item 5 Blog -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <!-- Menu item 6 Careers-->
+              <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+
+              <!-- Menu item 7 Contact-->
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Main Menu END -->
+
+          <!-- Nav right START -->
+          <div
+            class="
+              nav
+              flex-nowrap
+              align-items-center
+              bg-primary-end
+              position-relative
+              ps-4
+              ms-4
+            "
+          >
+            <!-- Call -->
+            <div class="nav-item d-none d-lg-flex">
+              <div class="flex-row mb-n1">
+                <span class="me-2 text-white">Call us:</span>
+                <a href="#" class="text-white mb-0 h6">+(254) 7854-6308</a>
+              </div>
+            </div>
+            <!-- Nav Button -->
+            <div class="nav-item d-none d-xl-block">
+              <a href="#" class="btn btn-sm btn-dark mb-0 mx-2"
+                >Estimate Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Logo Nav END -->
+    </header>
+    <!-- ===== Header END ===== -->
+
+    <!-- ===== Main Banner START ===== -->
+    <main>{% block content %} {% endblock %}</main>
+    <!-- ===== Main Banner END ===== -->
+
+    <!-- ===== Footer START ===== -->
+    <footer class="bg-dark pt-7 pattern-overlay-6">
+      <div class="container">
+        <!-- NewsLetter -->
+        <div class="row pb-5 justify-content-center">
+          <div class="col-md-7">
+            <h3 class="text-white text-center">
+              Subscribe to our newsletter or
+              <a
+                href="https://www.instagram.com/sentientafrica"
+                class="text-primary"
+                >follow @sentientafrica</a
+              >
+              on Instagram for latest update
+            </h3>
+            <form class="p-0 px-xl-8 my-4">
+              <div class="input-group">
+                <input
+                  class="form-control border-0 h-auto"
+                  type="email"
+                  placeholder="Your email address"
+                />
+                <button type="button" class="btn btn-white btn-lg mb-0">
+                  Subscribe
+                </button>
+              </div>
+              <div class="text-center mt-3">
+                <span class="text-danger">*</span> We will not share your
+                personal information with anyone
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider-light opacity-1"></div>
+        <!-- Clients -->
+        <div class="row py-4 justify-content-center">
+          <div class="col-12">
+            <div class="tiny-slider">
+              <div
+                class="tiny-slider-inner"
+                data-arrow="false"
+                data-dots="false"
+                data-gutter="80"
+                data-items-xl="6"
+                data-items-lg="5"
+                data-items-md="5"
+                data-items-sm="4"
+                data-items-xs="2"
+                data-autoplay="3800"
+              >
+                <!-- Slide items START -->
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client1.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client2.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client3.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client4.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client5.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="opacity-5"
+                    src="../static/images/clients/client6.svg"
+                    alt=""
+                  />
+                </div>
+                <!-- Slide items END -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider-light opacity-1"></div>
+        <!-- Main Footer -->
+        <div class="row pb-4 pt-6">
+          <!-- Footer widget item -->
+          <div class="col-md-4 mb-4">
+            <h5 class="mb-4 text-white">
+              About Sentient Africa<span class="text-primary">.</span>
+            </h5>
+            <p>
+              Grow your business, save time, and create beautiful custom
+              software that delivers outstanding results
+            </p>
+            <!-- Social icons -->
+            <ul class="list-unstyled list-group-inline display-9">
+              <li>
+                <a class="text-facebook me-2" href="#"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-instagram mx-2" href="#"
+                  ><i class="fab fa-instagram-square"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-twitter mx-2" href="#"
+                  ><i class="fab fa-twitter-square"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-linkedin mx-2" href="#"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+            <div class="my-4">
+              ©<span id="footerYear"></span>
+              <a href="https://www.sentientafrica.com/" target="_blank"
+                >Sentient Africa</a
+              >. All rights reserved
+            </div>
+          </div>
+          <!-- Footer widget item -->
+          <div class="col-sm-6 col-md-2 offset-lg-1 mb-5">
+            <h5 class="mb-4 text-white">What we do</h5>
+            <ul class="nav flex-column text-primary-hover">
+              <li class="nav-item">
+                <a class="nav-link pt-0" href="#">Development</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Testing</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Branding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Learning</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Footer widget item -->
+          <div class="col-sm-6 col-md-2 mb-5">
+            <h5 class="mb-4 text-white">Discover</h5>
+            <ul class="nav flex-column text-primary-hover">
+              <li class="nav-item">
+                <a class="nav-link pt-0" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Career <span class="badge bg-danger ms-2">No Gigs</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Footer widget item -->
+          <div class="col-md-3">
+            <h5 class="mb-4 text-white">Where we are</h5>
+            <address>11408 - 00100 GPO, Kenyatta Ave, Nairobi, Kenya.</address>
+            <p>
+              <a
+                class="text-primary-hover"
+                href="mailto:support@sentientafrica.com?subject=softwaredevelopment"
+                >support@sentientafrica.com</a
+              >
+            </p>
+            <p>
+              <a class="text-primary-hover" href="tel:+25478546308"
+                >+(254) 7854-6308</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== Footer END ===== -->
+
+    <script
+      src="../static/vendor/tiny-slider/tiny-slider.js"
+      type="application/javascript"
+      defer
+    ></script>
+    <script
+      src="../static/js/function.js"
+      defer
+      type="application/javascript"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      type="application/javascript"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script>
+      let footerYear = document.querySelector("#footerYear");
+      let year = new Date().getFullYear();
+      footerYear.innerText = year;
+    </script>
+  </body>
+</html>
