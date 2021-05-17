@@ -59,7 +59,7 @@ def consultation():
         role = request.form['role']
         details = request.form['details']
 
-        if firstname and lastname and email and company and department and role and details == '':
+        if firstname and lastname and email and company and department and role == '':
             return render_template('index.html', message='Please fill in the required fields *')
 
         data = Consultation(firstname, lastname, email, company, department, role, details)
